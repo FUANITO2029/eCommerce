@@ -89,6 +89,12 @@ body{
     transform: translate(-50%);
 }
 
+.social-link span{
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+}
+
 .social-link-img {
     width: 1.6vw;
     height: 1.6vw;
@@ -156,7 +162,7 @@ body{
     font-size: 1.2vw;
 }
 
-.nxt-btn {
+.nxt-btn{
     border: none;
     background: none;
     display: flex;
@@ -168,7 +174,7 @@ body{
     user-select: none;
 }
 
-.ntx-btn img {
+.nxt-btn img {
     width: 60%;
 }
 
@@ -176,13 +182,13 @@ body{
     width: 40%;
     height: 40vw;
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 }
 
 .porduct-img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .slide::before {
@@ -190,7 +196,10 @@ body{
     position: absolute;
     top: 0;
     left: -100%;
-    width: ;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    animation: slide-left 1s linear 1;
 }
 
 @keyframes  slide-left{
